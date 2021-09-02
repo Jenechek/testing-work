@@ -1,0 +1,42 @@
+.block1 {
+    text-align: left;
+    width: 40%;
+    height: 100%;
+    border: black solid 1px;
+    transition: 0.5s;
+    background-image: url('./images/fon.jpg');
+    background-size: 100%;
+    overflow: hidden;
+}
+.block1:hover {
+    box-shadow: inset 0 0 20px 10px;
+    transition: 0.5s;
+}
+
+.block1 .blockText {
+    position: relative;
+    left: 60%;
+    top: 70%;
+}
+
+.block1 .blockText a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    border: white solid 5px;
+    transition: 0.5s;
+}
+.block1 .blockText a:hover {
+    color: rgb(2, 163, 2);
+    border: rgb(2, 163, 2) solid 5px;
+    transition: 0.5s;
+}
+
+.block1 .blockText p {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 10px;
+}

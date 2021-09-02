@@ -1,0 +1,70 @@
+footer {
+    width: 100%;
+    height: 56vh;
+    background-color: black
+}
+
+.footWrap {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.footWrap img {
+    width: 200px;
+    height: 100%;
+}
+
+.footWrap .hrefs {
+    padding-left: 70px;
+    text-align: left;
+}
+
+.footWrap .hrefs p {
+    color: grey;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footWrap .hrefs a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.footWrap .hrefs a:hover {
+    color: rgb(2, 163, 2);
+}
+
+.mess {
+    margin-left: 70px;
+}
+.mess a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border: gray solid 1px;
+    border-radius: 100px;
+    margin: 20px 0;
+}
+.mess img {
+    width: 30px;
+    height: 30px;
+}
+
+.lowFoot {
+    padding: 0 40px 40px 40px;
+}
+.lowFoot a {
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    padding: 0 20px;
+}
+.lowFoot a:hover {
+    color: rgb(2, 163, 2);
+}

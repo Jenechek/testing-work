@@ -1,0 +1,4 @@
+section .block {
+    display: flex;
+    height: 50vh;
+}
